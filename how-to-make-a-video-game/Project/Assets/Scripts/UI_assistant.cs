@@ -21,6 +21,7 @@ public class UI_assistant : MonoBehaviour
 
 	private void Awake()
 	{
+		
 		messageText = transform.Find("Talker").Find("message").Find("messageText").GetComponent<ArabicText>();
 		initailizeString();
 		transform.Find("Talker").Find("message").GetComponent<Button>().onClick.AddListener(() => {
@@ -42,7 +43,7 @@ public class UI_assistant : MonoBehaviour
 		});
 	}
 	private void playClip()
-	{
+	{	
 		source.clip = clips[current_index];
 		source.Play();
 	}
@@ -60,9 +61,9 @@ public class UI_assistant : MonoBehaviour
 		if (curr_indx == 0)
 		{
 			messageArray = new string[] {
-					" مرحبا كيف حالكم",
-					"آمل أن تكون بخير وصحه وعافيه",
-					"درسنا عن أسماء الإشارة"
+					" مرحبا يا أصدقاء كيف حالكم امل أن تكونوا بخير",
+					"درسنا اليوم عن اللغة العربية",
+					"وسنتكلم عن المذكر و المؤنث"
 			};
 		}
 

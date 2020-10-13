@@ -411,6 +411,9 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 33939f539adbf7c44b7088463a06c1a2, type: 3}
   - {fileID: 8300000, guid: fea103e7f35120e4da755e659dd02719, type: 3}
   - {fileID: 8300000, guid: 77899c66e3fc50b4bbb976cdb663f624, type: 3}
+  - {fileID: 8300000, guid: 3e76e5ba673b68a42a877f79a4b85707, type: 3}
+  - {fileID: 8300000, guid: dd6dd6e8e54f0564087d19f50e1a52cd, type: 3}
+  - {fileID: 8300000, guid: 09619c39f04581148889dbd52e3bd06d, type: 3}
   talker: {fileID: 969784059}
 --- !u!82 &1009206560
 AudioSource:
